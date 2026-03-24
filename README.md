@@ -1,7 +1,7 @@
 # MS2NMF-demo
 
 
-![描述文字](images/ms2nmf-.png)
+![描述文字](images/SLECS.png)
 
 
 MS2NMF (Submission Version)
@@ -9,9 +9,8 @@ MS2NMF (Submission Version)
 
 Description
 -----------
-This repository provides a submission-stage version of MS2NMF,
-including a minimal reproducible demo for the NMF step and
-a static web-based interface for method illustration.
+This repository provides a submission-stage version of SLECS (Skeleton-Level Chemical Space), including a minimal reproducible demo of the NMF decomposition step, a pre-generated fragment-intensity matrix for direct testing, and a static web-based interface for conceptual illustration of the framework. The complete preprocessing workflow and full datasets are described in the manuscript and will be released upon publication.
+
 
 ## Directory Structure
 
@@ -24,9 +23,9 @@ MS2NMF/
 ``` 
 
 ## DATA
-   - The `demo/` folder provides a pre-generated optimized fragment-intensity matrix (`demo_optimized_fragment_matrix.csv`) used as the direct input for NMF factorization.
-The full preprocessing workflow is described in the manuscript, and all related
-code and data will be released upon publication.
+ The `demo/` folder provides a pre-generated optimized fragment-intensity matrix (`demo_optimized_fragment_matrix.csv`) as direct input for NMF decomposition within the SLECS framework. The complete preprocessing workflow is described in the manuscript, and all related code and datasets will be released upon publication.
+<img width="5338" height="81" alt="image" src="https://github.com/user-attachments/assets/d9ae92c0-5805-4a1e-8312-5e46f6fdcb10" />
+
 
 ## Contact
 
