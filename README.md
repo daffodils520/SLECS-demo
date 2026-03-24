@@ -1,4 +1,4 @@
-# MS2NMF-demo
+# SLECS-demo
 
 
 ![描述文字](images/demo.png)
