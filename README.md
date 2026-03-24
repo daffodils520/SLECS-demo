@@ -24,7 +24,6 @@ MS2NMF/
 
 ## DATA
  The `demo/` folder provides a pre-generated optimized fragment-intensity matrix (`demo_optimized_fragment_matrix.csv`) as direct input for NMF decomposition within the SLECS framework. The complete preprocessing workflow is described in the manuscript, and all related code and datasets will be released upon publication.
-<img width="5338" height="81" alt="image" src="https://github.com/user-attachments/assets/d9ae92c0-5805-4a1e-8312-5e46f6fdcb10" />
 
 
 ## Contact
