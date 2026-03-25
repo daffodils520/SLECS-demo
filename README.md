@@ -4,7 +4,7 @@
 ![描述文字](images/demo.png)
 
 
-MS2NMF (Submission Version)
+SLECS (Submission Version)
 ===================
 
 Description
@@ -15,7 +15,7 @@ This repository provides a submission-stage version of SLECS (Skeleton-Level Che
 ## Directory Structure
 
 ```plaintext
-MS2NMF/
+SLECS/
 ├── README.md       
 ├── requirements.txt
 ├── docs/         
