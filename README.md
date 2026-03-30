@@ -1,21 +1,30 @@
-# SLECS-demo
+# SLECS Explorer-demo
 
 
 ![描述文字](images/demo.png)
 
 
-SLECS (Submission Version)
+SLECS Explorer (Submission Version)
 ===================
 
 Description
 -----------
-This repository provides a submission-stage version of SLECS (Skeleton-Level Chemical Space), including a minimal reproducible demo of the NMF decomposition step, a pre-generated fragment-intensity matrix for direct testing, and a static web-based interface for conceptual illustration of the framework. The complete preprocessing workflow and full datasets are described in the manuscript and will be released upon publication.
+This repository provides a submission-stage version of SLECS Explorer, an interactive web-based interface for exploring skeleton-level chemical space derived from MS/MS data.
+
+SLECS Explorer is built upon a feature-structured analytical framework in which MS/MS data are reorganized through fragment–feature representation and matrix factorization to reveal a skeleton-level chemical space (SLECS). Within this space, structurally distinct regions can be explored and prioritized to support structure-guided discovery of novel molecular scaffolds.
+
+This submission version includes:
+- A minimal reproducible demo of the NMF decomposition step  
+- A pre-generated fragment–intensity matrix for direct testing  
+- A static web interface for conceptual illustration of the SLECS framework  
+
+The complete preprocessing workflow, parameter settings, and full datasets are described in the manuscript and will be released upon publication.
 
 
 ## Directory Structure
 
 ```plaintext
-SLECS/
+SLECS Explorer/
 ├── README.md       
 ├── requirements.txt
 ├── docs/         
@@ -23,7 +32,13 @@ SLECS/
 ``` 
 
 ## DATA
- The `demo/` folder provides a pre-generated optimized fragment-intensity matrix (`demo_optimized_fragment_matrix.csv`) as direct input for NMF decomposition within the SLECS framework. The complete preprocessing workflow is described in the manuscript, and all related code and datasets will be released upon publication.
+ The `demo/` folder provides a pre-generated optimized fragment–intensity matrix (`demo_optimized_fragment_matrix.csv`) that can be directly used as input for NMF decomposition within the SLECS-based framework.
+
+This dataset allows users to reproduce the core step of fragment–feature factorization and explore the resulting skeleton-level chemical space.
+
+The complete preprocessing workflow is described in the manuscript, and all related code and datasets will be released upon publication.
+
+
 
 
 ## Contact
